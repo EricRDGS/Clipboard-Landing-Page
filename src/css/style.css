@@ -1,0 +1,277 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clipboard{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    color: var(--neutral-grayish);
+    background: url(../images/bg-header-desktop.png) no-repeat;
+    max-width: 1440px;
+    width: 100vw;
+}
+
+.clipboard .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0 0;
+    text-align: center;
+}
+
+.clipboard .logo .main-title{
+    color: var(--neutral-dark
+    );
+    font-size: 44px;
+    margin: 1.5rem 0 .5rem;
+}
+
+.clipboard .logo .text{
+    max-width: 690px;
+}
+
+.clipboard .logo .downloads{
+    margin: 2.5rem 0;
+}
+
+.clipboard .logo .downloads a:first-child{
+    background-color: var(--primary-strong);
+}
+
+.clipboard .logo .downloads a:last-child{
+    background-color: var(--primary-light);
+}
+
+.clipboard .logo .downloads a{
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 100px;
+    box-shadow: 1px 1.5px 6px var(--neutral-dark);
+}
+
+.clipboard .logo .downloads a:hover{
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    opacity: .8;
+    box-shadow: 1px 1.5px 6px var(--neutral-grayish);
+}
+
+.clipboard .sections{
+    margin: 2rem;
+}
+
+.clipboard .sections .section-keep-track{
+    margin: 0 0 2rem;
+}
+
+.clipboard .sections .section-keep-track .keep-track{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.clipboard .sections .section-keep-track .keep-track .title-keep-track{
+    font-size: 32px;
+    color: var(--neutral-dark);
+    margin-bottom: .5rem;
+}
+
+.clipboard .sections .section-keep-track .keep-track .text-keep-track{
+    max-width: 690px;
+}
+
+.clipboard .sections .section-keep-track .pc-info{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.clipboard .sections .section-keep-track .pc-info img{
+    margin-left: -10%;
+    max-width: 100%;
+}
+
+.clipboard .sections .section-keep-track .pc-info .infos{
+    max-width: 370px;
+    align-self: center;
+}
+
+.clipboard .sections .section-keep-track .pc-info .info{
+    margin-bottom: 3rem;
+}
+
+.clipboard .sections .section-keep-track .pc-info .info .title{
+    font-size: 24px;
+    color: var(--neutral-dark);
+    margin-bottom: .5rem;
+}
+
+.clipboard .sections .section-keep-track .pc-info .info .text{
+    line-height: 1.8rem;
+}
+
+.clipboard .section-access-clipboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.clipboard .section-access-clipboard .access-clipboard{
+    margin: 3.5rem 0;
+}
+
+.clipboard .section-access-clipboard .access-clipboard .title-access-clipboard{
+    font-size: 32px;
+    color: var(--neutral-dark);
+    margin-bottom: 1rem;
+}
+
+.clipboard .section-access-clipboard .access-clipboard .text-access-clipboard{
+    max-width: 40rem;
+}
+
+.clipboard .section-superchange{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clipboard .section-superchange .superchange{
+    margin: .5rem 0 2.5rem;
+    text-align: center;
+}
+
+.clipboard .section-superchange .superchange .title-superchange{
+    font-size: 32px;
+    color: var(--neutral-dark);
+    margin-bottom: .7rem;
+}
+
+.clipboard .section-superchange .workflows{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 4.5rem;
+}
+
+.clipboard .section-superchange .workflows .item-workflow{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.clipboard .section-superchange .workflows .item-workflow.create-blacklists{
+    margin-top: .7rem;
+}
+
+.clipboard .section-superchange .workflows .item-workflow .title-workflow{
+    font-size: 22px;
+    color: var(--neutral-dark);
+    margin: 1rem;
+}
+
+.clipboard .section-superchange .workflows .item-workflow .text-workflow{
+    max-width: 400px;
+}
+
+.clipboard .others{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+.clipboard .clipboard-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clipboard .clipboard-bottom h2{
+    font-size: 32px;
+    color: var(--neutral-dark);
+    margin-bottom: .7rem;
+}
+
+.clipboard .clipboard-bottom p{
+    text-align: center;
+    max-width: 700px;
+}
+
+.clipboard .clipboard-bottom .downloads-bottom{
+    margin: 2.5rem 0;
+}
+
+.clipboard .clipboard-bottom .downloads-bottom a:first-child{
+    background-color: var(--primary-strong);
+}
+
+.clipboard .clipboard-bottom .downloads-bottom a:last-child{
+    background-color: var(--primary-light);
+}
+
+.clipboard .clipboard-bottom .downloads-bottom a{
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 100px;
+    box-shadow: 1px 1.5px 6px var(--neutral-dark);
+}
+
+.clipboard .clipboard-bottom .downloads-bottom a:hover{
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    opacity: .8;
+    box-shadow: 1px 1.5px 6px var(--neutral-grayish);
+}
+
+.clipboard .footer{
+    padding: 1.5rem 0;
+    background-color: rgba(240, 237, 237, 0.719);
+}
+
+.clipboard .contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clipboard .contact .set-contacts img{
+    height: 50px;
+    width: 50px;
+    margin-right: 5rem;
+}
+
+.clipboard .contact .set-contacts{
+    display: flex;
+}
+
+.clipboard .contact .set-contacts ul{
+    margin-right: 4rem;
+}
+
+.clipboard .contact .set-contacts a{
+    color: var(--neutral-dark);
+}
+
+.clipboard .contact .set-contacts a:hover{
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    color: var(--primary-strong);
+}
+
+.clipboard .contact .social-networks a{
+    margin-left: 2rem;
+}
+
+.clipboard .contact .social-networks i{
+    color: var(--neutral-dark);
+    font-size: 28px;
+}
+
+.clipboard .contact .social-networks i:hover{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    color: var(--primary-strong);
+}
