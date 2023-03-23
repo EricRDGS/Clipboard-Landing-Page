@@ -46,6 +46,7 @@ body{
 
 .clipboard .logo .downloads a{
     color: #fff;
+    margin-left: 1rem;
     padding: 8px 15px;
     border-radius: 100px;
     box-shadow: 1px 1.5px 6px var(--neutral-dark);
@@ -214,6 +215,7 @@ body{
 
 .clipboard .clipboard-bottom .downloads-bottom a{
     color: #fff;
+    margin-left: 1rem;
     padding: 8px 15px;
     border-radius: 100px;
     box-shadow: 1px 1.5px 6px var(--neutral-dark);
